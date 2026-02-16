@@ -23,6 +23,8 @@ public class AdminController {
 
     @GetMapping
     public List<Admin> getAll() {
+        System.out.println("\n Fetching all admins... \n ");
         return service.getAll();
+
     }
 }
